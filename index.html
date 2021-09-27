@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+	<div class="container pg1-container" id="top-bar">		
+		<div id="title" class="pg1-title">Wikipedia<span style="color:teal"> Viewer </span></div>
+		<div id="search-box" class="pg1-search-box">			
+			<div style="height:45px;position:relative;width:400px;display:inline-block;" class="hideatstart">
+				<input id="inputquery" class="hideatstart pg1-input" type="text" placeholder="Search Wikipedia"/>
+				<i id="close-icon" class="fa fa-close" style="display:none;" aria-hidden="true"></i>
+			</div>
+			<i id="enter-btn" class="fa fa-search pg1-fa-search" aria-hidden="true"></i>
+			<div>
+				<button type="button" id="rnd-btn" class="btn btn-primary hideatstart pg1-rnd-button">Random Article</button>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="container" id="display-area">
+			<div id="result">
+		<!--
+				<div class="row">
+					<a href="" target="_blank">	
+						<h4>TITLE </h4>
+						<p>This is a new row <br> Second Row</p>
+					</a>
+				</div>
+			</a>	
+		-->
+			</div>
+			<div id="loader" style="display:none;"></div>
+		</div>	
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
